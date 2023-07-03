@@ -251,8 +251,6 @@ ul {
   color: white;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-
 .staff__cards {
   justify-content: space-between;
   max-width: 760px;
@@ -357,12 +355,13 @@ ul {
 }
 
 .about__title {
-  margin-left: 120px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
+  z-index: 3;
   max-width: 154px;
+  margin-left: 120px;
+  position: relative;
 }
 
 .about__content {
@@ -370,24 +369,27 @@ ul {
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  z-index: 2;
   position: relative;
-  z-index: 1;
 }
 
-.about__content p:nth-child(-n + 2) {
-  margin: 32px;
+.about__paragraph {
+  margin-bottom: 32px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
   background-color: #2f80ed;
-  left: -91px;
-  top: -121px;
-  z-index: 0;
   width: 540px;
   height: 540px;
   border-radius: 50%;
-  display: flex;
+  top: -121px;
+  left: -91px;
   position: absolute;
+  z-index: 1;
 }
 
 .footer {
@@ -395,9 +397,9 @@ ul {
   background-color: #1f1f1f;
   color: #fff;
   padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 80px;
+  padding-left: 60px;
   padding-right: 102px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -411,7 +413,7 @@ ul {
   font-size: 16px;
 }
 
-.footer__column_content_hours {
+.footer__column-content_hours {
   margin-left: auto;
   color: white;
 }
@@ -470,4 +472,12 @@ ul {
 
 .nav__link:hover {
   color: #1f69c9;
+}
+
+.header__link:hover {
+  color: #1f69c9;
+}
+
+.events__more:hover {
+  color: #c1c1c1;
 }

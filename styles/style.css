@@ -386,8 +386,8 @@ ul {
   width: 540px;
   height: 540px;
   border-radius: 50%;
-  top: -121px;
-  left: -91px;
+  top: 121px;
+  left: 91px;
   position: absolute;
   z-index: 0;
 }
@@ -396,7 +396,7 @@ ul {
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 57px 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
@@ -408,17 +408,16 @@ ul {
   font-size: 16px;
 }
 
-.footer__column-content_hours {
+.footer__column_content_hours {
   margin-left: auto;
 }
 
-.footer__column_content_social {
+.footer__column_content_columns_social {
   margin-left: 100px;
 }
 
 .footer__logo {
   width: 153px;
-  height: 21px;
 }
 
 .footer__list {
@@ -471,5 +470,5 @@ ul {
 }
 
 .events__more:hover {
-  color: #c1c1c1;
+  color: #1f69c9;
 }

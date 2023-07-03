@@ -351,7 +351,8 @@ ul {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  position: relative;
+  display: flex;
+  gap: 120px;
 }
 
 .about__title {
@@ -383,11 +384,11 @@ ul {
 
 .about__circle {
   background-color: #2f80ed;
-  width: 540px;
-  height: 540px;
+  width: 495px;
+  height: 495px;
   border-radius: 50%;
-  top: 121px;
-  left: 91px;
+  top: -121px;
+  left: -91px;
   position: absolute;
   z-index: 0;
 }

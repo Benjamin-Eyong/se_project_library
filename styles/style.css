@@ -11,9 +11,11 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 30px 80px 0;
+  padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
@@ -23,8 +25,8 @@
 }
 
 .logo {
-  width: 21px;
-  height: 80px;
+  width: 196px;
+  height: 60px;
 }
 
 .nav__links {
@@ -66,7 +68,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 40px 80px 0;
+  margin-top: auto;
   justify-content: space-between;
   box-sizing: border-box;
 }
@@ -354,7 +356,6 @@
   font-weight: 500;
   z-index: 3;
   max-width: 154px;
-  margin-left: 120px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -405,7 +406,8 @@
 }
 
 .footer__column_content_hours {
-  margin-right: auto;
+  margin-right: 100px;
+  margin-left: auto;
 }
 
 .footer__column_content_columns_social {
